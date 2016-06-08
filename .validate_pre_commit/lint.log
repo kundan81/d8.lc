@@ -1,0 +1,13 @@
+PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';' in .validate_pre_commit/docroot/modules/hello_world/src/Controller/HelloController.php on line 15
+Errors parsing .validate_pre_commit/docroot/modules/hello_world/src/Controller/HelloController.php
+
+FILE: ...c/docroot/modules/hello_world/src/Controller/HelloController.php
+----------------------------------------------------------------------
+FOUND 2 ERRORS AFFECTING 2 LINES
+----------------------------------------------------------------------
+  7 | ERROR | Doc comment is empty
+ 13 | ERROR | Doc comment is empty
+----------------------------------------------------------------------
+
+Time: 77ms; Memory: 5Mb
+
