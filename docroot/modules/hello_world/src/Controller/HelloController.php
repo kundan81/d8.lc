@@ -11,7 +11,7 @@ class HelloController extends ControllerBase {
   protected $connection;
 
   /**
-   * conntent().
+   * Conntent().
    */
   public function content() {
     return array(
