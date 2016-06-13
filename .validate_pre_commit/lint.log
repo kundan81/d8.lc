@@ -1,0 +1,176 @@
+No syntax errors detected in .validate_pre_commit/docroot/modules/twitter_search_block/src/Form/TwitterAuthForm.php
+
+FILE: ...ocroot/modules/twitter_search_block/src/Form/TwitterAuthForm.php
+----------------------------------------------------------------------
+FOUND 3 ERRORS AFFECTING 3 LINES
+----------------------------------------------------------------------
+  8 | ERROR | Doc comment is empty
+ 20 | ERROR | Doc comment is empty
+ 55 | ERROR | Doc comment is empty
+----------------------------------------------------------------------
+
+Time: 50ms; Memory: 5.75Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/modules/twitter_search_block/src/Form/TwitterHashBlockConfig.php
+
+FILE: ...modules/twitter_search_block/src/Form/TwitterHashBlockConfig.php
+----------------------------------------------------------------------
+FOUND 4 ERRORS AFFECTING 4 LINES
+----------------------------------------------------------------------
+  8 | ERROR | Doc comment is empty
+ 13 | ERROR | Doc comment is empty
+ 20 | ERROR | Doc comment is empty
+ 54 | ERROR | Doc comment is empty
+----------------------------------------------------------------------
+
+Time: 48ms; Memory: 5.75Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/modules/twitter_search_block/src/Plugin/Block/TweetBlock.php
+
+FILE: ...oot/modules/twitter_search_block/src/Plugin/Block/TweetBlock.php
+----------------------------------------------------------------------
+FOUND 5 ERRORS AND 8 WARNINGS AFFECTING 12 LINES
+----------------------------------------------------------------------
+  8 | WARNING | Line exceeds 80 characters; contains 81 characters
+ 27 | WARNING | Line exceeds 80 characters; contains 81 characters
+ 58 | WARNING | Line exceeds 80 characters; contains 92 characters
+ 59 | WARNING | Line exceeds 80 characters; contains 84 characters
+ 59 | ERROR   | Comment indentation error, expected only 1 spaces
+ 60 | ERROR   | Comment indentation error, expected only 2 spaces
+ 61 | WARNING | Line exceeds 80 characters; contains 81 characters
+ 64 | WARNING | Line exceeds 80 characters; contains 96 characters
+ 68 | ERROR   | Comment indentation error, expected only 4 spaces
+ 73 | ERROR   | Comment indentation error, expected only 4 spaces
+ 74 | WARNING | Line exceeds 80 characters; contains 113 characters
+ 76 | WARNING | Line exceeds 80 characters; contains 92 characters
+ 79 | ERROR   | Comment indentation error, expected only 6 spaces
+----------------------------------------------------------------------
+
+Time: 53ms; Memory: 5.75Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/modules/twitter_search_block/src/Plugin/Block/TwitterAPIClass.php
+
+FILE: ...odules/twitter_search_block/src/Plugin/Block/TwitterAPIClass.php
+----------------------------------------------------------------------
+FOUND 3 ERRORS AND 1 WARNING AFFECTING 4 LINES
+----------------------------------------------------------------------
+  4 | ERROR   | Doc comment is empty
+ 10 | WARNING | Line exceeds 80 characters; contains 93 characters
+ 12 | ERROR   | Public method name "TwitterAPIClass::twitter_api" is
+    |         | not in lowerCamel format
+ 14 | ERROR   | Inline doc block comments are not allowed; use "/*
+    |         | Comment */" or "// Comment" instead
+----------------------------------------------------------------------
+
+Time: 41ms; Memory: 5.5Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/modules/twitter_search_block/src/Plugin/Block/TwitterAPIExchange.php
+
+FILE: ...les/twitter_search_block/src/Plugin/Block/TwitterAPIExchange.php
+----------------------------------------------------------------------
+FOUND 45 ERRORS AND 2 WARNINGS AFFECTING 45 LINES
+----------------------------------------------------------------------
+   3 | ERROR   | Doc comment is empty
+   7 | ERROR   | Missing short description in doc comment
+  10 | ERROR   | Class property $oauth_access_token should use
+     |         | lowerCamel naming without underscores
+  12 | ERROR   | Missing short description in doc comment
+  15 | ERROR   | Class property $oauth_access_token_secret should use
+     |         | lowerCamel naming without underscores
+  17 | ERROR   | Missing short description in doc comment
+  20 | ERROR   | Class property $consumer_key should use lowerCamel
+     |         | naming without underscores
+  22 | ERROR   | Missing short description in doc comment
+  25 | ERROR   | Class property $consumer_secret should use
+     |         | lowerCamel naming without underscores
+  27 | ERROR   | Missing short description in doc comment
+  32 | ERROR   | Missing short description in doc comment
+  37 | ERROR   | Missing short description in doc comment
+  42 | ERROR   | Missing short description in doc comment
+  47 | ERROR   | Missing short description in doc comment
+  54 | WARNING | Line exceeds 80 characters; contains 81 characters
+  56 | ERROR   | Doc comment short description must be on a single
+     |         | line, further text should be a separate paragraph
+  58 | ERROR   | @throws comment must be on the next line
+  60 | ERROR   | Parameter tags must be defined first in a doc
+     |         | comment
+  60 | ERROR   | Missing parameter comment
+  85 | ERROR   | Parameter comment must end with a full stop
+  87 | ERROR   | @throws comment must be on the next line
+  89 | ERROR   | Description for the @return value must be on the
+     |         | next line
+ 121 | ERROR   | Parameter comment must end with a full stop
+ 125 | ERROR   | Description for the @return value must be on the
+     |         | next line
+ 151 | ERROR   | Description for the @return value must be on the
+     |         | next line
+ 161 | ERROR   | Description for the @return value must be on the
+     |         | next line
+ 170 | ERROR   | Doc comment short description must be on a single
+     |         | line, further text should be a separate paragraph
+ 173 | WARNING | Line exceeds 80 characters; contains 82 characters
+ 173 | ERROR   | Parameter comment must end with a full stop
+ 175 | ERROR   | Parameter comment must end with a full stop
+ 179 | ERROR   | Description for the @return value must be on the
+     |         | next line
+ 209 | ERROR   | Inline doc block comments are not allowed; use "/*
+     |         | Comment */" or "// Comment" instead
+ 240 | ERROR   | Parameter comment must end with a full stop
+ 241 | ERROR   | Doc comment for parameter $curlOptionsAdditional
+     |         | does not match actual variable name $curlOptions
+ 243 | ERROR   | Parameter comment must end with a full stop
+ 247 | ERROR   | Description for the @return value must be on the
+     |         | next line
+ 295 | ERROR   | Missing parameter comment
+ 296 | ERROR   | Missing parameter comment
+ 297 | ERROR   | Missing parameter comment
+ 299 | ERROR   | Description for the @return value must be on the
+     |         | next line
+ 317 | ERROR   | Parameter comment must end with a full stop
+ 319 | ERROR   | Description for the @return value must be on the
+     |         | next line
+ 341 | ERROR   | Missing parameter comment
+ 342 | ERROR   | Missing parameter comment
+ 343 | ERROR   | Missing parameter comment
+ 344 | ERROR   | Missing parameter comment
+ 348 | ERROR   | Description for the @return value must be on the
+     |         | next line
+----------------------------------------------------------------------
+
+Time: 112ms; Memory: 8.75Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/modules/twitter_search_block/src/Plugin/Block/TwitterBlockGeneral.php
+
+FILE: ...es/twitter_search_block/src/Plugin/Block/TwitterBlockGeneral.php
+----------------------------------------------------------------------
+FOUND 0 ERRORS AND 2 WARNINGS AFFECTING 2 LINES
+----------------------------------------------------------------------
+  8 | WARNING | Line exceeds 80 characters; contains 81 characters
+ 27 | WARNING | Line exceeds 80 characters; contains 81 characters
+----------------------------------------------------------------------
+
+Time: 42ms; Memory: 5.5Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/modules/twitter_search_block/src/Plugin/Field/FieldFormatter/TwitterFormatter.php
+
+FILE: ...earch_block/src/Plugin/Field/FieldFormatter/TwitterFormatter.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 8 | ERROR | Missing short description in doc comment
+----------------------------------------------------------------------
+
+Time: 38ms; Memory: 5.25Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/modules/twitter_search_block/src/Plugin/Field/FieldType/TwitterItem.php
+
+FILE: .../twitter_search_block/src/Plugin/Field/FieldType/TwitterItem.php
+----------------------------------------------------------------------
+FOUND 1 ERROR AFFECTING 1 LINE
+----------------------------------------------------------------------
+ 9 | ERROR | Missing short description in doc comment
+----------------------------------------------------------------------
+
+Time: 43ms; Memory: 5.5Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/modules/twitter_search_block/src/Plugin/Field/FieldWidget/TwitterWidget.php
