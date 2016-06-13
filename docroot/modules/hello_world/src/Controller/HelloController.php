@@ -1,22 +1,23 @@
 <?php
-/**
- * @file
- * Contains \Drupal\hello_world\Controller\HelloController.
- */
 
 namespace Drupal\hello_world\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
-use Drupal\Core\Database\Query;
 
+/**
+ * HelloController class.
+ */
 class HelloController extends ControllerBase {
   protected $connection;
 
+  /**
+   * conntent().
+   */
   public function content() {
     return array(
-        '#type' => 'markup',
-        '#markup' => t('Hello, World!'),
-    )
+      '#type' => 'markup',
+      '#markup' => t('Hello, World!'),
+    );
   }
+
 }
-?>
