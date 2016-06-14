@@ -4,7 +4,7 @@ namespace Drupal\twitter_search_block\Plugin\Field\FieldWidget;
 
 use Drupal\Core\Field\FieldItemListInterface;
 use Drupal\Core\Field\WidgetBase;
-use Drupal\Core\Form\FormStateInterface;
+use Drupal\Core\Form\FormStateInterface
 
 /**
  * Plugin implementation of the 'field_example_text' widget.
