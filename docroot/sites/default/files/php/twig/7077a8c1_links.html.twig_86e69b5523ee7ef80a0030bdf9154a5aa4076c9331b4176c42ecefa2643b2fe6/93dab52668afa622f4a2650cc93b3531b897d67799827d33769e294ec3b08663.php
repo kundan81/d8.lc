@@ -1,121 +1,148 @@
 <?php
 
-/* core/themes/classy/templates/navigation/links.html.twig */
-class __TwigTemplate_09389faca4730c52922e22167be6b4d7cc170592b7e8fb38b9d442bbc13575ed extends Twig_Template
-{
-    public function __construct(Twig_Environment $env)
-    {
-        parent::__construct($env);
+/**
+ * @file Core/themes/classy/templates/navigation/links.html.twig .*/
 
-        $this->parent = false;
+/**
+ *
+ */
+class __TwigTemplate_09389faca4730c52922e22167be6b4d7cc170592b7e8fb38b9d442bbc13575ed extends Twig_Template {
 
-        $this->blocks = array(
+  /**
+   *
+   */
+  public function __construct(Twig_Environment $env) {
+
+    parent::__construct($env);
+
+    $this->parent = FALSE;
+
+    $this->blocks = array();
+  }
+
+  /**
+   *
+   */
+  protected function doDisplay(array $context, array $blocks = array()) {
+
+    $tags = array("if" => 34, "for" => 43);
+    $filters = array();
+    $functions = array();
+
+    try {
+      $this->env->getExtension('sandbox')->checkSecurity(
+            array('if', 'for'),
+            array(),
+            array()
         );
     }
+    catch (Twig_Sandbox_SecurityError $e) {
+      $e->setTemplateFile($this->getTemplateName());
 
-    protected function doDisplay(array $context, array $blocks = array())
-    {
-        $tags = array("if" => 34, "for" => 43);
-        $filters = array();
-        $functions = array();
+      if ($e instanceof Twig_Sandbox_SecurityNotAllowedTagError && isset($tags[$e->getTagName()])) {
+        $e->setTemplateLine($tags[$e->getTagName()]);
+      }
+      elseif ($e instanceof Twig_Sandbox_SecurityNotAllowedFilterError && isset($filters[$e->getFilterName()])) {
+        $e->setTemplateLine($filters[$e->getFilterName()]);
+      }
+      elseif ($e instanceof Twig_Sandbox_SecurityNotAllowedFunctionError && isset($functions[$e->getFunctionName()])) {
+        $e->setTemplateLine($functions[$e->getFunctionName()]);
+      }
 
-        try {
-            $this->env->getExtension('sandbox')->checkSecurity(
-                array('if', 'for'),
-                array(),
-                array()
-            );
-        } catch (Twig_Sandbox_SecurityError $e) {
-            $e->setTemplateFile($this->getTemplateName());
+      throw $e;
+    }
 
-            if ($e instanceof Twig_Sandbox_SecurityNotAllowedTagError && isset($tags[$e->getTagName()])) {
-                $e->setTemplateLine($tags[$e->getTagName()]);
-            } elseif ($e instanceof Twig_Sandbox_SecurityNotAllowedFilterError && isset($filters[$e->getFilterName()])) {
-                $e->setTemplateLine($filters[$e->getFilterName()]);
-            } elseif ($e instanceof Twig_Sandbox_SecurityNotAllowedFunctionError && isset($functions[$e->getFunctionName()])) {
-                $e->setTemplateLine($functions[$e->getFunctionName()]);
-            }
-
-            throw $e;
+    // Line 34.
+    if ((isset($context["links"]) ? $context["links"] : NULL)) {
+      // Line 35.
+      if ((isset($context["heading"]) ? $context["heading"] : NULL)) {
+        // Line 36.
+        if ($this->getAttribute((isset($context["heading"]) ? $context["heading"] : NULL), "level", array())) {
+          // Line 37.
+          echo "<";
+          echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["heading"]) ? $context["heading"] : NULL), "level", array()), "html", NULL, TRUE));
+          echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["heading"]) ? $context["heading"] : NULL), "attributes", array()), "html", NULL, TRUE));
+          echo ">";
+          echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["heading"]) ? $context["heading"] : NULL), "text", array()), "html", NULL, TRUE));
+          echo "</";
+          echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["heading"]) ? $context["heading"] : NULL), "level", array()), "html", NULL, TRUE));
+          echo ">";
         }
-
-        // line 34
-        if ((isset($context["links"]) ? $context["links"] : null)) {
-            // line 35
-            if ((isset($context["heading"]) ? $context["heading"] : null)) {
-                // line 36
-                if ($this->getAttribute((isset($context["heading"]) ? $context["heading"] : null), "level", array())) {
-                    // line 37
-                    echo "<";
-                    echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["heading"]) ? $context["heading"] : null), "level", array()), "html", null, true));
-                    echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["heading"]) ? $context["heading"] : null), "attributes", array()), "html", null, true));
-                    echo ">";
-                    echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["heading"]) ? $context["heading"] : null), "text", array()), "html", null, true));
-                    echo "</";
-                    echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["heading"]) ? $context["heading"] : null), "level", array()), "html", null, true));
-                    echo ">";
-                } else {
-                    // line 39
-                    echo "<h2";
-                    echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["heading"]) ? $context["heading"] : null), "attributes", array()), "html", null, true));
-                    echo ">";
-                    echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["heading"]) ? $context["heading"] : null), "text", array()), "html", null, true));
-                    echo "</h2>";
-                }
-            }
-            // line 42
-            echo "<ul";
-            echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["attributes"]) ? $context["attributes"] : null), "html", null, true));
-            echo ">";
-            // line 43
-            $context['_parent'] = $context;
-            $context['_seq'] = twig_ensure_traversable((isset($context["links"]) ? $context["links"] : null));
-            foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
-                // line 44
-                echo "<li";
-                echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute($context["item"], "attributes", array()), "html", null, true));
-                echo ">";
-                // line 45
-                if ($this->getAttribute($context["item"], "link", array())) {
-                    // line 46
-                    echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute($context["item"], "link", array()), "html", null, true));
-                } elseif ($this->getAttribute(                // line 47
-$context["item"], "text_attributes", array())) {
-                    // line 48
-                    echo "<span";
-                    echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute($context["item"], "text_attributes", array()), "html", null, true));
-                    echo ">";
-                    echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute($context["item"], "text", array()), "html", null, true));
-                    echo "</span>";
-                } else {
-                    // line 50
-                    echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute($context["item"], "text", array()), "html", null, true));
-                }
-                // line 52
-                echo "</li>";
-            }
-            $_parent = $context['_parent'];
-            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
-            $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 54
-            echo "</ul>";
+        else {
+          // Line 39.
+          echo "<h2";
+          echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["heading"]) ? $context["heading"] : NULL), "attributes", array()), "html", NULL, TRUE));
+          echo ">";
+          echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["heading"]) ? $context["heading"] : NULL), "text", array()), "html", NULL, TRUE));
+          echo "</h2>";
         }
+      }
+      // Line 42.
+      echo "<ul";
+      echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["attributes"]) ? $context["attributes"] : NULL), "html", NULL, TRUE));
+      echo ">";
+      // Line 43.
+      $context['_parent'] = $context;
+      $context['_seq'] = twig_ensure_traversable((isset($context["links"]) ? $context["links"] : NULL));
+      foreach ($context['_seq'] as $context["_key"] => $context["item"]) {
+        // Line 44.
+        echo "<li";
+        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute($context["item"], "attributes", array()), "html", NULL, TRUE));
+        echo ">";
+        // Line 45.
+        if ($this->getAttribute($context["item"], "link", array())) {
+          // Line 46.
+          echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute($context["item"], "link", array()), "html", NULL, TRUE));
+        }
+        // Line 47.
+        elseif ($this->getAttribute(
+        $context["item"], "text_attributes", array())) {
+          // Line 48.
+          echo "<span";
+          echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute($context["item"], "text_attributes", array()), "html", NULL, TRUE));
+          echo ">";
+          echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute($context["item"], "text", array()), "html", NULL, TRUE));
+          echo "</span>";
+        }
+        else {
+          // Line 50.
+          echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute($context["item"], "text", array()), "html", NULL, TRUE));
+        }
+        // Line 52.
+        echo "</li>";
+      }
+      $_parent = $context['_parent'];
+      unset($context['_seq'], $context['_iterated'], $context['_key'], $context['item'], $context['_parent'], $context['loop']);
+      $context = array_intersect_key($context, $_parent) + $_parent;
+      // Line 54.
+      echo "</ul>";
     }
+  }
 
-    public function getTemplateName()
-    {
-        return "core/themes/classy/templates/navigation/links.html.twig";
-    }
+  /**
+   *
+   */
+  public function getTemplateName() {
 
-    public function isTraitable()
-    {
-        return false;
-    }
+    return "core/themes/classy/templates/navigation/links.html.twig";
+  }
 
-    public function getDebugInfo()
-    {
-        return array (  101 => 54,  95 => 52,  92 => 50,  85 => 48,  83 => 47,  81 => 46,  79 => 45,  75 => 44,  71 => 43,  67 => 42,  59 => 39,  49 => 37,  47 => 36,  45 => 35,  43 => 34,);
-    }
+  /**
+   *
+   */
+  public function isTraitable() {
+
+    return FALSE;
+  }
+
+  /**
+   *
+   */
+  public function getDebugInfo() {
+
+    return array(101 => 54, 95 => 52, 92 => 50, 85 => 48, 83 => 47, 81 => 46, 79 => 45, 75 => 44, 71 => 43, 67 => 42, 59 => 39, 49 => 37, 47 => 36, 45 => 35, 43 => 34);
+  }
+
 }
 /* {#*/
 /* /***/

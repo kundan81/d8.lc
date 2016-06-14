@@ -1,70 +1,93 @@
 <?php
 
-/* core/themes/classy/templates/form/form.html.twig */
-class __TwigTemplate_4f3936eeaff4abce7e9c144547e6db4011ae5986bb45ef4148b45b5f6a78290b extends Twig_Template
-{
-    public function __construct(Twig_Environment $env)
-    {
-        parent::__construct($env);
+/**
+ * @file Core/themes/classy/templates/form/form.html.twig .*/
 
-        $this->parent = false;
+/**
+ *
+ */
+class __TwigTemplate_4f3936eeaff4abce7e9c144547e6db4011ae5986bb45ef4148b45b5f6a78290b extends Twig_Template {
 
-        $this->blocks = array(
+  /**
+   *
+   */
+  public function __construct(Twig_Environment $env) {
+
+    parent::__construct($env);
+
+    $this->parent = FALSE;
+
+    $this->blocks = array();
+  }
+
+  /**
+   *
+   */
+  protected function doDisplay(array $context, array $blocks = array()) {
+
+    $tags = array();
+    $filters = array();
+    $functions = array();
+
+    try {
+      $this->env->getExtension('sandbox')->checkSecurity(
+            array(),
+            array(),
+            array()
         );
     }
+    catch (Twig_Sandbox_SecurityError $e) {
+      $e->setTemplateFile($this->getTemplateName());
 
-    protected function doDisplay(array $context, array $blocks = array())
-    {
-        $tags = array();
-        $filters = array();
-        $functions = array();
+      if ($e instanceof Twig_Sandbox_SecurityNotAllowedTagError && isset($tags[$e->getTagName()])) {
+        $e->setTemplateLine($tags[$e->getTagName()]);
+      }
+      elseif ($e instanceof Twig_Sandbox_SecurityNotAllowedFilterError && isset($filters[$e->getFilterName()])) {
+        $e->setTemplateLine($filters[$e->getFilterName()]);
+      }
+      elseif ($e instanceof Twig_Sandbox_SecurityNotAllowedFunctionError && isset($functions[$e->getFunctionName()])) {
+        $e->setTemplateLine($functions[$e->getFunctionName()]);
+      }
 
-        try {
-            $this->env->getExtension('sandbox')->checkSecurity(
-                array(),
-                array(),
-                array()
-            );
-        } catch (Twig_Sandbox_SecurityError $e) {
-            $e->setTemplateFile($this->getTemplateName());
+      throw $e;
+    }
 
-            if ($e instanceof Twig_Sandbox_SecurityNotAllowedTagError && isset($tags[$e->getTagName()])) {
-                $e->setTemplateLine($tags[$e->getTagName()]);
-            } elseif ($e instanceof Twig_Sandbox_SecurityNotAllowedFilterError && isset($filters[$e->getFilterName()])) {
-                $e->setTemplateLine($filters[$e->getFilterName()]);
-            } elseif ($e instanceof Twig_Sandbox_SecurityNotAllowedFunctionError && isset($functions[$e->getFunctionName()])) {
-                $e->setTemplateLine($functions[$e->getFunctionName()]);
-            }
-
-            throw $e;
-        }
-
-        // line 13
-        echo "<form";
-        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["attributes"]) ? $context["attributes"] : null), "html", null, true));
-        echo ">
+    // Line 13.
+    echo "<form";
+    echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["attributes"]) ? $context["attributes"] : NULL), "html", NULL, TRUE));
+    echo ">
   ";
-        // line 14
-        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["children"]) ? $context["children"] : null), "html", null, true));
-        echo "
+    // Line 14.
+    echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["children"]) ? $context["children"] : NULL), "html", NULL, TRUE));
+    echo "
 </form>
 ";
-    }
+  }
 
-    public function getTemplateName()
-    {
-        return "core/themes/classy/templates/form/form.html.twig";
-    }
+  /**
+   *
+   */
+  public function getTemplateName() {
 
-    public function isTraitable()
-    {
-        return false;
-    }
+    return "core/themes/classy/templates/form/form.html.twig";
+  }
 
-    public function getDebugInfo()
-    {
-        return array (  48 => 14,  43 => 13,);
-    }
+  /**
+   *
+   */
+  public function isTraitable() {
+
+    return FALSE;
+  }
+
+  /**
+   *
+   */
+  public function getDebugInfo() {
+
+    return array(48 => 14, 43 => 13);
+  }
+
 }
 /* {#*/
 /* /***/

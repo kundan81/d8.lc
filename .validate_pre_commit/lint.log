@@ -1,0 +1,694 @@
+No syntax errors detected in .validate_pre_commit/docroot/sites/default/default.settings.php
+
+FILE: /var/www/html/d8.lc/docroot/sites/default/default.settings.php
+----------------------------------------------------------------------
+FOUND 22 ERRORS AND 8 WARNINGS AFFECTING 30 LINES
+----------------------------------------------------------------------
+  88 | ERROR   | Tags must be grouped together in a doc comment
+ 145 | ERROR   | Tags must be grouped together in a doc comment
+ 147 | ERROR   | Tags must be grouped together in a doc comment
+ 152 | ERROR   | Tags must be grouped together in a doc comment
+ 160 | ERROR   | Tags must be grouped together in a doc comment
+ 166 | ERROR   | Tags must be grouped together in a doc comment
+ 174 | ERROR   | Tags must be grouped together in a doc comment
+ 181 | ERROR   | Tags must be grouped together in a doc comment
+ 190 | ERROR   | Tags must be grouped together in a doc comment
+ 203 | ERROR   | Tags must be grouped together in a doc comment
+ 212 | ERROR   | Tags must be grouped together in a doc comment
+ 215 | ERROR   | Tags must be grouped together in a doc comment
+ 220 | ERROR   | Tags must be grouped together in a doc comment
+ 331 | WARNING | Line exceeds 80 characters; contains 102 characters
+ 332 | WARNING | Line exceeds 80 characters; contains 103 characters
+ 368 | ERROR   | Doc comment short description must be on a single
+     |         | line, further text should be a separate paragraph
+ 373 | ERROR   | Doc comment short description must be on a single
+     |         | line, further text should be a separate paragraph
+ 378 | ERROR   | Doc comment short description must be on a single
+     |         | line, further text should be a separate paragraph
+ 383 | ERROR   | Doc comment short description must be on a single
+     |         | line, further text should be a separate paragraph
+ 388 | ERROR   | Doc comment short description must be on a single
+     |         | line, further text should be a separate paragraph
+ 393 | ERROR   | Doc comment short description must be on a single
+     |         | line, further text should be a separate paragraph
+ 436 | WARNING | Line exceeds 80 characters; contains 88 characters
+ 560 | ERROR   | Doc comment short description must be on a single
+     |         | line, further text should be a separate paragraph
+ 581 | WARNING | Line exceeds 80 characters; contains 120 characters
+ 630 | WARNING | Line exceeds 80 characters; contains 101 characters
+ 631 | WARNING | Line exceeds 80 characters; contains 128 characters
+ 632 | WARNING | Line exceeds 80 characters; contains 221 characters
+ 645 | WARNING | Line exceeds 80 characters; contains 85 characters
+ 671 | ERROR   | Tags must be grouped together in a doc comment
+ 678 | ERROR   | Tags must be grouped together in a doc comment
+----------------------------------------------------------------------
+
+Time: 173ms; Memory: 9.25Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/sites/default/files/php/twig/7077a8c1_block--local-tasks-block.html.twig_d8b38197036ab93a47db4c913a67346e41c5a1472a5713faad25eb9001713d19/9a27ab525d6b343e57a50092f7add51aa2fc6306f6aa56c67b353309feacefd4.php
+
+FILE: ...ab525d6b343e57a50092f7add51aa2fc6306f6aa56c67b353309feacefd4.php
+----------------------------------------------------------------------
+FOUND 11 ERRORS AFFECTING 10 LINES
+----------------------------------------------------------------------
+   4 | ERROR | [x] Doc comment short description must be on the first
+     |       |     line
+   6 | ERROR | [ ] Doc comment is empty
+   9 | ERROR | [ ] Class name must begin with a capital letter
+   9 | ERROR | [ ] Class name must use UpperCamel naming without
+     |       |     underscores
+  11 | ERROR | [ ] Doc comment is empty
+  25 | ERROR | [ ] Doc comment is empty
+  33 | ERROR | [ ] Doc comment is empty
+  71 | ERROR | [ ] Public method name
+     |       |     "__TwigTemplate_268847178ac425841af1f1cdb7468d24f535b663f34ca89284a6d486f311c5e4::block_content"
+     |       |     is not in lowerCamel format
+  89 | ERROR | [ ] Doc comment is empty
+  97 | ERROR | [ ] Doc comment is empty
+ 105 | ERROR | [ ] Doc comment is empty
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+Time: 58ms; Memory: 6.25Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/sites/default/files/php/twig/7077a8c1_block--system-messages-block.html.twig_448d0092791500c899aa09d98022231204fdaab754095f0aa9f4b185c8e1e778/54efb9ffaf31875ba112ac39bd91c46dd40f6bd5a695b0d11766215e4e0b5237.php
+
+FILE: ...b9ffaf31875ba112ac39bd91c46dd40f6bd5a695b0d11766215e4e0b5237.php
+----------------------------------------------------------------------
+FOUND 9 ERRORS AFFECTING 8 LINES
+----------------------------------------------------------------------
+  4 | ERROR | [x] Doc comment short description must be on the first
+    |       |     line
+  6 | ERROR | [ ] Doc comment is empty
+  9 | ERROR | [ ] Class name must begin with a capital letter
+  9 | ERROR | [ ] Class name must use UpperCamel naming without
+    |       |     underscores
+ 11 | ERROR | [ ] Doc comment is empty
+ 23 | ERROR | [ ] Doc comment is empty
+ 61 | ERROR | [ ] Doc comment is empty
+ 69 | ERROR | [ ] Doc comment is empty
+ 77 | ERROR | [ ] Doc comment is empty
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+Time: 51ms; Memory: 5.75Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/sites/default/files/php/twig/7077a8c1_block.html.twig_2fe6281ffdae92230b7875428f4584006392f557bcb8d65524887013040dc73e/5797619b806a5467d6a261d68ce02cad58e7b0a00774258fed57e3efe6d2dfcf.php
+
+FILE: ...619b806a5467d6a261d68ce02cad58e7b0a00774258fed57e3efe6d2dfcf.php
+----------------------------------------------------------------------
+FOUND 10 ERRORS AFFECTING 9 LINES
+----------------------------------------------------------------------
+   3 | ERROR | Missing short description in doc comment
+  11 | ERROR | Class name must begin with a capital letter
+  11 | ERROR | Class name must use UpperCamel naming without
+     |       | underscores
+  13 | ERROR | Doc comment is empty
+  27 | ERROR | Doc comment is empty
+ 102 | ERROR | Public method name
+     |       | "__TwigTemplate_2df41681deb52155bce5344f825218f791c525d505cb5abe11d12e86fd4f4a3d::block_content"
+     |       | is not in lowerCamel format
+ 111 | ERROR | Doc comment is empty
+ 119 | ERROR | Doc comment is empty
+ 127 | ERROR | Doc comment is empty
+ 132 | ERROR | If the line declaring an array spans longer than 80
+     |       | characters, each element should be broken into its own
+     |       | line
+----------------------------------------------------------------------
+
+Time: 77ms; Memory: 7.25Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/sites/default/files/php/twig/7077a8c1_block.html.twig_48fc8a09700e00fddf71dace824007c40663fc78aeaa792a039ce0d0fb0a6ec7/139c990675e62fa5a7f9bc894aececd003bf0b3cbd3172544efe0f4a861f33e6.php
+
+FILE: ...990675e62fa5a7f9bc894aececd003bf0b3cbd3172544efe0f4a861f33e6.php
+----------------------------------------------------------------------
+FOUND 10 ERRORS AFFECTING 9 LINES
+----------------------------------------------------------------------
+   3 | ERROR | Missing short description in doc comment
+  11 | ERROR | Class name must begin with a capital letter
+  11 | ERROR | Class name must use UpperCamel naming without
+     |       | underscores
+  13 | ERROR | Doc comment is empty
+  27 | ERROR | Doc comment is empty
+ 102 | ERROR | Public method name
+     |       | "__TwigTemplate_2b14f98ef4f9bb4b271ccc66dd0a76b118926783c53cb8003b4cd6f01807ce2a::block_content"
+     |       | is not in lowerCamel format
+ 111 | ERROR | Doc comment is empty
+ 119 | ERROR | Doc comment is empty
+ 127 | ERROR | Doc comment is empty
+ 132 | ERROR | If the line declaring an array spans longer than 80
+     |       | characters, each element should be broken into its own
+     |       | line
+----------------------------------------------------------------------
+
+Time: 76ms; Memory: 7.25Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/sites/default/files/php/twig/7077a8c1_breadcrumb.html.twig_b2e9b056bc491ea76903ac62b0de898121e229a8a2c8a17efe74f5a98d5a0bde/357c8eca0b8b2a166645523b11b6ced4cd9930a60809b3111fa0e7fc56b4e802.php
+
+FILE: ...8eca0b8b2a166645523b11b6ced4cd9930a60809b3111fa0e7fc56b4e802.php
+----------------------------------------------------------------------
+FOUND 10 ERRORS AFFECTING 9 LINES
+----------------------------------------------------------------------
+   4 | ERROR | [x] Doc comment short description must be on the first
+     |       |     line
+   6 | ERROR | [ ] Doc comment is empty
+   9 | ERROR | [ ] Class name must begin with a capital letter
+   9 | ERROR | [ ] Class name must use UpperCamel naming without
+     |       |     underscores
+  11 | ERROR | [ ] Doc comment is empty
+  23 | ERROR | [ ] Doc comment is empty
+ 103 | ERROR | [ ] Doc comment is empty
+ 111 | ERROR | [ ] Doc comment is empty
+ 119 | ERROR | [ ] Doc comment is empty
+ 124 | ERROR | [ ] If the line declaring an array spans longer than
+     |       |     80 characters, each element should be broken into
+     |       |     its own line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+Time: 67ms; Memory: 7Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/sites/default/files/php/twig/7077a8c1_container.html.twig_56331bf76cd9b44fd725b9f44925927291221fb9fb9d5c32c6dafe352f324187/6d90d3a7ca9d2ce2c6d13579f637aca2d5ca24c39da393e248b7242927e9f678.php
+
+FILE: ...d3a7ca9d2ce2c6d13579f637aca2d5ca24c39da393e248b7242927e9f678.php
+----------------------------------------------------------------------
+FOUND 9 ERRORS AFFECTING 8 LINES
+----------------------------------------------------------------------
+  4 | ERROR | [x] Doc comment short description must be on the first
+    |       |     line
+  6 | ERROR | [ ] Doc comment is empty
+  9 | ERROR | [ ] Class name must begin with a capital letter
+  9 | ERROR | [ ] Class name must use UpperCamel naming without
+    |       |     underscores
+ 11 | ERROR | [ ] Doc comment is empty
+ 23 | ERROR | [ ] Doc comment is empty
+ 72 | ERROR | [ ] Doc comment is empty
+ 80 | ERROR | [ ] Doc comment is empty
+ 88 | ERROR | [ ] Doc comment is empty
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+Time: 58ms; Memory: 6.25Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/sites/default/files/php/twig/7077a8c1_details.html.twig_c80f04e04621d033a54447342471138ceb64fbe7a07c5ae6ddcae92fbcaa5c06/ede371a5a0842cc7acd9781d80da7b4f4e40729be39ec5638eb142d2a901f1d8.php
+
+FILE: ...71a5a0842cc7acd9781d80da7b4f4e40729be39ec5638eb142d2a901f1d8.php
+----------------------------------------------------------------------
+FOUND 10 ERRORS AFFECTING 9 LINES
+----------------------------------------------------------------------
+   4 | ERROR | [x] Doc comment short description must be on the first
+     |       |     line
+   6 | ERROR | [ ] Doc comment is empty
+   9 | ERROR | [ ] Class name must begin with a capital letter
+   9 | ERROR | [ ] Class name must use UpperCamel naming without
+     |       |     underscores
+  11 | ERROR | [ ] Doc comment is empty
+  23 | ERROR | [ ] Doc comment is empty
+ 105 | ERROR | [ ] Doc comment is empty
+ 113 | ERROR | [ ] Doc comment is empty
+ 121 | ERROR | [ ] Doc comment is empty
+ 126 | ERROR | [ ] If the line declaring an array spans longer than
+     |       |     80 characters, each element should be broken into
+     |       |     its own line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+Time: 72ms; Memory: 7Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/sites/default/files/php/twig/7077a8c1_form-element-label.html.twig_b8ce6f1c98887e4dd4fe3dfb36d9d0e747be0299444b803fe599ef41b8ad6ea8/6d1be784f56176af7f86d6c883d0b34e5a4ede3cc206f84cf222b19e9e236031.php
+
+FILE: ...e784f56176af7f86d6c883d0b34e5a4ede3cc206f84cf222b19e9e236031.php
+----------------------------------------------------------------------
+FOUND 10 ERRORS AFFECTING 9 LINES
+----------------------------------------------------------------------
+  4 | ERROR | [x] Doc comment short description must be on the first
+    |       |     line
+  6 | ERROR | [ ] Doc comment is empty
+  9 | ERROR | [ ] Class name must begin with a capital letter
+  9 | ERROR | [ ] Class name must use UpperCamel naming without
+    |       |     underscores
+ 11 | ERROR | [ ] Doc comment is empty
+ 23 | ERROR | [ ] Doc comment is empty
+ 78 | ERROR | [ ] Doc comment is empty
+ 86 | ERROR | [ ] Doc comment is empty
+ 94 | ERROR | [ ] Doc comment is empty
+ 99 | ERROR | [ ] If the line declaring an array spans longer than 80
+    |       |     characters, each element should be broken into its
+    |       |     own line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+Time: 63ms; Memory: 6.75Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/sites/default/files/php/twig/7077a8c1_form-element.html.twig_4c423ec4d3ee8d3e0fae433ebe540cd1edbc2a2c0473d3d1402b0d1b73b4c634/5192d11eec9ab76c17cc9524250d9bbd1381d33a15c49ed79290894fb300aebd.php
+
+FILE: ...d11eec9ab76c17cc9524250d9bbd1381d33a15c49ed79290894fb300aebd.php
+----------------------------------------------------------------------
+FOUND 9 ERRORS AFFECTING 8 LINES
+----------------------------------------------------------------------
+   3 | ERROR | Missing short description in doc comment
+  11 | ERROR | Class name must begin with a capital letter
+  11 | ERROR | Class name must use UpperCamel naming without
+     |       | underscores
+  13 | ERROR | Doc comment is empty
+  25 | ERROR | Doc comment is empty
+ 173 | ERROR | Doc comment is empty
+ 181 | ERROR | Doc comment is empty
+ 189 | ERROR | Doc comment is empty
+ 194 | ERROR | If the line declaring an array spans longer than 80
+     |       | characters, each element should be broken into its own
+     |       | line
+----------------------------------------------------------------------
+
+Time: 121ms; Memory: 9.25Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/sites/default/files/php/twig/7077a8c1_form.html.twig_ee8a2789509d235ed82b079c26467eb3b6105605bc20cc6133d4df48b8915ecb/60b5b35087dd474554ac33cfb7c06d1e8ddcd37c0a8cef2eaf5ccdd25205bedc.php
+
+FILE: ...b35087dd474554ac33cfb7c06d1e8ddcd37c0a8cef2eaf5ccdd25205bedc.php
+----------------------------------------------------------------------
+FOUND 9 ERRORS AFFECTING 8 LINES
+----------------------------------------------------------------------
+  4 | ERROR | [x] Doc comment short description must be on the first
+    |       |     line
+  6 | ERROR | [ ] Doc comment is empty
+  9 | ERROR | [ ] Class name must begin with a capital letter
+  9 | ERROR | [ ] Class name must use UpperCamel naming without
+    |       |     underscores
+ 11 | ERROR | [ ] Doc comment is empty
+ 23 | ERROR | [ ] Doc comment is empty
+ 67 | ERROR | [ ] Doc comment is empty
+ 75 | ERROR | [ ] Doc comment is empty
+ 83 | ERROR | [ ] Doc comment is empty
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+Time: 53ms; Memory: 6Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/sites/default/files/php/twig/7077a8c1_html.html.twig_771faec557cbf57981a757f15ec94f23c0f6060573750007eeba44eece797925/80cbac08121649efe578100f5aa117d5d60215234c450c05e48072f913f06b91.php
+
+FILE: ...ac08121649efe578100f5aa117d5d60215234c450c05e48072f913f06b91.php
+----------------------------------------------------------------------
+FOUND 10 ERRORS AFFECTING 9 LINES
+----------------------------------------------------------------------
+   3 | ERROR | Missing short description in doc comment
+  11 | ERROR | Class name must begin with a capital letter
+  11 | ERROR | Class name must use UpperCamel naming without
+     |       | underscores
+  13 | ERROR | Doc comment is empty
+  25 | ERROR | Doc comment is empty
+  31 | ERROR | If the line declaring an array spans longer than 80
+     |       | characters, each element should be broken into its own
+     |       | line
+ 124 | ERROR | Doc comment is empty
+ 132 | ERROR | Doc comment is empty
+ 140 | ERROR | Doc comment is empty
+ 145 | ERROR | If the line declaring an array spans longer than 80
+     |       | characters, each element should be broken into its own
+     |       | line
+----------------------------------------------------------------------
+
+Time: 88ms; Memory: 7.75Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/sites/default/files/php/twig/7077a8c1_input.html.twig_67c340f5364b978c5af0d2c25c1a8e568bb63f6d185d61531dcc8e9a1172c017/a9e45c536b50add30cb084e6f66a84e6b0b90aa67adee8f89766e3544b1ae09a.php
+
+FILE: ...5c536b50add30cb084e6f66a84e6b0b90aa67adee8f89766e3544b1ae09a.php
+----------------------------------------------------------------------
+FOUND 9 ERRORS AFFECTING 8 LINES
+----------------------------------------------------------------------
+  4 | ERROR | [x] Doc comment short description must be on the first
+    |       |     line
+  6 | ERROR | [ ] Doc comment is empty
+  9 | ERROR | [ ] Class name must begin with a capital letter
+  9 | ERROR | [ ] Class name must use UpperCamel naming without
+    |       |     underscores
+ 11 | ERROR | [ ] Doc comment is empty
+ 23 | ERROR | [ ] Doc comment is empty
+ 64 | ERROR | [ ] Doc comment is empty
+ 72 | ERROR | [ ] Doc comment is empty
+ 80 | ERROR | [ ] Doc comment is empty
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+Time: 54ms; Memory: 6Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/sites/default/files/php/twig/7077a8c1_item-list.html.twig_26edc1c6c40160ced40cfafba0839177ccfa98a33d78e2e4984a0a8cb08d3468/3c148b02155b2eefa09fd2d90a18aea8fd636693bfdd2ec61b4f41363c8297e2.php
+
+FILE: ...8b02155b2eefa09fd2d90a18aea8fd636693bfdd2ec61b4f41363c8297e2.php
+----------------------------------------------------------------------
+FOUND 12 ERRORS AFFECTING 11 LINES
+----------------------------------------------------------------------
+   4 | ERROR | [x] Doc comment short description must be on the first
+     |       |     line
+   6 | ERROR | [ ] Doc comment is empty
+   9 | ERROR | [ ] Class name must begin with a capital letter
+   9 | ERROR | [ ] Class name must use UpperCamel naming without
+     |       |     underscores
+  11 | ERROR | [ ] Doc comment is empty
+  23 | ERROR | [ ] Doc comment is empty
+  58 | ERROR | [ ] If the line declaring an array spans longer than
+     |       |     80 characters, each element should be broken into
+     |       |     its own line
+  60 | ERROR | [ ] If the line declaring an array spans longer than
+     |       |     80 characters, each element should be broken into
+     |       |     its own line
+ 110 | ERROR | [ ] Doc comment is empty
+ 118 | ERROR | [ ] Doc comment is empty
+ 126 | ERROR | [ ] Doc comment is empty
+ 131 | ERROR | [ ] If the line declaring an array spans longer than
+     |       |     80 characters, each element should be broken into
+     |       |     its own line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+Time: 105ms; Memory: 7.75Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/sites/default/files/php/twig/7077a8c1_links.html.twig_86e69b5523ee7ef80a0030bdf9154a5aa4076c9331b4176c42ecefa2643b2fe6/93dab52668afa622f4a2650cc93b3531b897d67799827d33769e294ec3b08663.php
+
+FILE: ...b52668afa622f4a2650cc93b3531b897d67799827d33769e294ec3b08663.php
+----------------------------------------------------------------------
+FOUND 10 ERRORS AFFECTING 9 LINES
+----------------------------------------------------------------------
+   4 | ERROR | [x] Doc comment short description must be on the first
+     |       |     line
+   6 | ERROR | [ ] Doc comment is empty
+   9 | ERROR | [ ] Class name must begin with a capital letter
+   9 | ERROR | [ ] Class name must use UpperCamel naming without
+     |       |     underscores
+  11 | ERROR | [ ] Doc comment is empty
+  23 | ERROR | [ ] Doc comment is empty
+ 122 | ERROR | [ ] Doc comment is empty
+ 130 | ERROR | [ ] Doc comment is empty
+ 138 | ERROR | [ ] Doc comment is empty
+ 143 | ERROR | [ ] If the line declaring an array spans longer than
+     |       |     80 characters, each element should be broken into
+     |       |     its own line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+Time: 94ms; Memory: 8Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/sites/default/files/php/twig/7077a8c1_menu--toolbar.html.twig_95dbe4a9d8c1dfdf1b4063ed339a97568e688f2c8d8549612c8ab8773c330b8e/a32e8a1e17c769646bd242f76211326d956b68f21769d41d6f6e6c3d0319eb9b.php
+
+FILE: ...8a1e17c769646bd242f76211326d956b68f21769d41d6f6e6c3d0319eb9b.php
+----------------------------------------------------------------------
+FOUND 12 ERRORS AFFECTING 11 LINES
+----------------------------------------------------------------------
+   4 | ERROR | [x] Doc comment short description must be on the first
+     |       |     line
+   6 | ERROR | [ ] Doc comment is empty
+   9 | ERROR | [ ] Class name must begin with a capital letter
+   9 | ERROR | [ ] Class name must use UpperCamel naming without
+     |       |     underscores
+  11 | ERROR | [ ] Doc comment is empty
+  23 | ERROR | [ ] Doc comment is empty
+  28 | ERROR | [ ] If the line declaring an array spans longer than
+     |       |     80 characters, each element should be broken into
+     |       |     its own line
+  70 | ERROR | [ ] Public method name
+     |       |     "__TwigTemplate_6a9790578feaa79f0836d59149d3d63f0fcac9d45c0108f91c8d6e1480ea6817::getmenu_links"
+     |       |     is not in lowerCamel format
+ 159 | ERROR | [ ] Doc comment is empty
+ 167 | ERROR | [ ] Doc comment is empty
+ 175 | ERROR | [ ] Doc comment is empty
+ 180 | ERROR | [ ] If the line declaring an array spans longer than
+     |       |     80 characters, each element should be broken into
+     |       |     its own line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+Time: 94ms; Memory: 8.25Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/sites/default/files/php/twig/7077a8c1_menu-local-task.html.twig_7fdd55418aad668d726d245ba886dbc36a29cf148fe0fa72227afa8f292a9784/cd338475c03fbac7a29cbd15535c8281601adc359e4cfe24745ef9891dbf4900.php
+
+FILE: ...8475c03fbac7a29cbd15535c8281601adc359e4cfe24745ef9891dbf4900.php
+----------------------------------------------------------------------
+FOUND 9 ERRORS AFFECTING 8 LINES
+----------------------------------------------------------------------
+  4 | ERROR | [x] Doc comment short description must be on the first
+    |       |     line
+  6 | ERROR | [ ] Doc comment is empty
+  9 | ERROR | [ ] Class name must begin with a capital letter
+  9 | ERROR | [ ] Class name must use UpperCamel naming without
+    |       |     underscores
+ 11 | ERROR | [ ] Doc comment is empty
+ 23 | ERROR | [ ] Doc comment is empty
+ 64 | ERROR | [ ] Doc comment is empty
+ 72 | ERROR | [ ] Doc comment is empty
+ 80 | ERROR | [ ] Doc comment is empty
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+Time: 54ms; Memory: 6Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/sites/default/files/php/twig/7077a8c1_menu-local-tasks.html.twig_1c4f8652c751e426e9dad7d79c78e699c14fa2fa891d49778f3122fa0cae3556/ca8446e4bbcdf7119742498736e04ab16701708c0e5e2e040b1a3a8d42292c2f.php
+
+FILE: ...46e4bbcdf7119742498736e04ab16701708c0e5e2e040b1a3a8d42292c2f.php
+----------------------------------------------------------------------
+FOUND 10 ERRORS AFFECTING 9 LINES
+----------------------------------------------------------------------
+   4 | ERROR | [x] Doc comment short description must be on the first
+     |       |     line
+   6 | ERROR | [ ] Doc comment is empty
+   9 | ERROR | [ ] Class name must begin with a capital letter
+   9 | ERROR | [ ] Class name must use UpperCamel naming without
+     |       |     underscores
+  11 | ERROR | [ ] Doc comment is empty
+  23 | ERROR | [ ] Doc comment is empty
+  89 | ERROR | [ ] Doc comment is empty
+  97 | ERROR | [ ] Doc comment is empty
+ 105 | ERROR | [ ] Doc comment is empty
+ 110 | ERROR | [ ] If the line declaring an array spans longer than
+     |       |     80 characters, each element should be broken into
+     |       |     its own line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+Time: 62ms; Memory: 6.5Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/sites/default/files/php/twig/7077a8c1_page-title.html.twig_4a4a76879e2cccd39bdaed07f5c2f46be8814fd8ac8749100a1f4e5308844f0b/d1c633fb4bc57bd4312d2f3ea47ec5a030648a58825b68b6eb9f574f7217f908.php
+
+FILE: ...33fb4bc57bd4312d2f3ea47ec5a030648a58825b68b6eb9f574f7217f908.php
+----------------------------------------------------------------------
+FOUND 9 ERRORS AFFECTING 8 LINES
+----------------------------------------------------------------------
+  4 | ERROR | [x] Doc comment short description must be on the first
+    |       |     line
+  6 | ERROR | [ ] Doc comment is empty
+  9 | ERROR | [ ] Class name must begin with a capital letter
+  9 | ERROR | [ ] Class name must use UpperCamel naming without
+    |       |     underscores
+ 11 | ERROR | [ ] Doc comment is empty
+ 23 | ERROR | [ ] Doc comment is empty
+ 75 | ERROR | [ ] Doc comment is empty
+ 83 | ERROR | [ ] Doc comment is empty
+ 91 | ERROR | [ ] Doc comment is empty
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+Time: 61ms; Memory: 6.25Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/sites/default/files/php/twig/7077a8c1_page.html.twig_31a1f10e68fa7725cb140b5ef530536a120ca534dda3d9964d5ec6cd58d9fb96/c9fd1206c90374cf50dc92abcecd6375087c44b1365f03181e722a5e0d0d86c0.php
+
+FILE: ...1206c90374cf50dc92abcecd6375087c44b1365f03181e722a5e0d0d86c0.php
+----------------------------------------------------------------------
+FOUND 10 ERRORS AFFECTING 9 LINES
+----------------------------------------------------------------------
+   4 | ERROR | [x] Doc comment short description must be on the first
+     |       |     line
+   6 | ERROR | [ ] Doc comment is empty
+   9 | ERROR | [ ] Class name must begin with a capital letter
+   9 | ERROR | [ ] Class name must use UpperCamel naming without
+     |       |     underscores
+  11 | ERROR | [ ] Doc comment is empty
+  23 | ERROR | [ ] Doc comment is empty
+ 102 | ERROR | [ ] Doc comment is empty
+ 110 | ERROR | [ ] Doc comment is empty
+ 118 | ERROR | [ ] Doc comment is empty
+ 123 | ERROR | [ ] If the line declaring an array spans longer than
+     |       |     80 characters, each element should be broken into
+     |       |     its own line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+Time: 71ms; Memory: 7Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/sites/default/files/php/twig/7077a8c1_region.html.twig_73504f86a10aff3f0bb9f5685a1a43002fe7e3a77501ae46f7bf61f7daacfa2d/f6e7abd33c63541aeda0d2926f171299b93b69d8b18f4e6a377ed8ac5042d173.php
+
+FILE: ...abd33c63541aeda0d2926f171299b93b69d8b18f4e6a377ed8ac5042d173.php
+----------------------------------------------------------------------
+FOUND 8 ERRORS AFFECTING 7 LINES
+----------------------------------------------------------------------
+  3 | ERROR | Missing short description in doc comment
+ 11 | ERROR | Class name must begin with a capital letter
+ 11 | ERROR | Class name must use UpperCamel naming without
+    |       | underscores
+ 13 | ERROR | Doc comment is empty
+ 25 | ERROR | Doc comment is empty
+ 79 | ERROR | Doc comment is empty
+ 87 | ERROR | Doc comment is empty
+ 95 | ERROR | Doc comment is empty
+----------------------------------------------------------------------
+
+Time: 61ms; Memory: 6.25Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/sites/default/files/php/twig/7077a8c1_status-messages.html.twig_8b050cdbe8e860e8426de1a4cd60381fd2c0c993a52e77a0b09b7cd0db8029f5/e997124d8baddda4393279485353553b09a42bd321accb9d05903d7426ac4fb1.php
+
+FILE: ...124d8baddda4393279485353553b09a42bd321accb9d05903d7426ac4fb1.php
+----------------------------------------------------------------------
+FOUND 12 ERRORS AFFECTING 11 LINES
+----------------------------------------------------------------------
+   4 | ERROR | [x] Doc comment short description must be on the first
+     |       |     line
+   6 | ERROR | [ ] Doc comment is empty
+   9 | ERROR | [ ] Class name must begin with a capital letter
+   9 | ERROR | [ ] Class name must use UpperCamel naming without
+     |       |     underscores
+  11 | ERROR | [ ] Doc comment is empty
+  25 | ERROR | [ ] Doc comment is empty
+  65 | ERROR | [ ] Doc comment is empty
+  68 | ERROR | [ ] Public method name
+     |       |     "__TwigTemplate_ea170165cf10f2697de2e22cfdf4a32467984a079b3fb0d398e31a680a32002d::block_messages"
+     |       |     is not in lowerCamel format
+ 156 | ERROR | [ ] Doc comment is empty
+ 164 | ERROR | [ ] Doc comment is empty
+ 172 | ERROR | [ ] Doc comment is empty
+ 177 | ERROR | [ ] If the line declaring an array spans longer than
+     |       |     80 characters, each element should be broken into
+     |       |     its own line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+Time: 94ms; Memory: 8Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/sites/default/files/php/twig/7077a8c1_system-modules-details.html.twig_412de5fa341b78e051b5e5971949b387e3f5945c1918f212e6ef45a8c781cb89/8880827f4b21bd62b30bdf0748b78a88686ba890d64e4eb111daa6f52210e54b.php
+
+FILE: ...827f4b21bd62b30bdf0748b78a88686ba890d64e4eb111daa6f52210e54b.php
+----------------------------------------------------------------------
+FOUND 15 ERRORS AND 1 WARNING AFFECTING 14 LINES
+----------------------------------------------------------------------
+   4 | ERROR   | [x] Doc comment short description must be on the
+     |         |     first line
+   6 | ERROR   | [ ] Doc comment is empty
+   9 | ERROR   | [ ] Class name must begin with a capital letter
+   9 | ERROR   | [ ] Class name must use UpperCamel naming without
+     |         |     underscores
+  11 | ERROR   | [ ] Doc comment is empty
+  23 | ERROR   | [ ] Doc comment is empty
+ 131 | WARNING | [ ] Avoid backslash escaping in translatable strings
+     |         |     when possible, use '' quotes instead
+ 131 | ERROR   | [ ] If the line declaring an array spans longer than
+     |         |     80 characters, each element should be broken
+     |         |     into its own line
+ 138 | ERROR   | [ ] If the line declaring an array spans longer than
+     |         |     80 characters, each element should be broken
+     |         |     into its own line
+ 147 | ERROR   | [ ] If the line declaring an array spans longer than
+     |         |     80 characters, each element should be broken
+     |         |     into its own line
+ 156 | ERROR   | [ ] If the line declaring an array spans longer than
+     |         |     80 characters, each element should be broken
+     |         |     into its own line
+ 170 | ERROR   | [ ] If the line declaring an array spans longer than
+     |         |     80 characters, each element should be broken
+     |         |     into its own line
+ 210 | ERROR   | [ ] Doc comment is empty
+ 218 | ERROR   | [ ] Doc comment is empty
+ 226 | ERROR   | [ ] Doc comment is empty
+ 231 | ERROR   | [ ] If the line declaring an array spans longer than
+     |         |     80 characters, each element should be broken
+     |         |     into its own line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+Time: 120ms; Memory: 9.25Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/sites/default/files/php/twig/7077a8c1_toolbar.html.twig_691ba78a2b9fab4aa23a1aa3b55ea487a4000bc211f0c3af0c4d0325dc9de14f/ad7219c5534b8eb1360af0ba6e6f8d4a10eaa075b3a42de87f042aad9d2a8263.php
+
+FILE: ...19c5534b8eb1360af0ba6e6f8d4a10eaa075b3a42de87f042aad9d2a8263.php
+----------------------------------------------------------------------
+FOUND 10 ERRORS AFFECTING 9 LINES
+----------------------------------------------------------------------
+   4 | ERROR | [x] Doc comment short description must be on the first
+     |       |     line
+   6 | ERROR | [ ] Doc comment is empty
+   9 | ERROR | [ ] Class name must begin with a capital letter
+   9 | ERROR | [ ] Class name must use UpperCamel naming without
+     |       |     underscores
+  11 | ERROR | [ ] Doc comment is empty
+  23 | ERROR | [ ] Doc comment is empty
+ 133 | ERROR | [ ] Doc comment is empty
+ 141 | ERROR | [ ] Doc comment is empty
+ 149 | ERROR | [ ] Doc comment is empty
+ 154 | ERROR | [ ] If the line declaring an array spans longer than
+     |       |     80 characters, each element should be broken into
+     |       |     its own line
+----------------------------------------------------------------------
+PHPCBF CAN FIX THE 1 MARKED SNIFF VIOLATIONS AUTOMATICALLY
+----------------------------------------------------------------------
+
+Time: 91ms; Memory: 7.75Mb
+
+No syntax errors detected in .validate_pre_commit/docroot/sites/default/settings.php
+
+FILE: /var/www/html/d8.lc/docroot/sites/default/settings.php
+----------------------------------------------------------------------
+FOUND 22 ERRORS AND 8 WARNINGS AFFECTING 30 LINES
+----------------------------------------------------------------------
+  88 | ERROR   | Tags must be grouped together in a doc comment
+ 145 | ERROR   | Tags must be grouped together in a doc comment
+ 147 | ERROR   | Tags must be grouped together in a doc comment
+ 152 | ERROR   | Tags must be grouped together in a doc comment
+ 160 | ERROR   | Tags must be grouped together in a doc comment
+ 166 | ERROR   | Tags must be grouped together in a doc comment
+ 174 | ERROR   | Tags must be grouped together in a doc comment
+ 181 | ERROR   | Tags must be grouped together in a doc comment
+ 190 | ERROR   | Tags must be grouped together in a doc comment
+ 203 | ERROR   | Tags must be grouped together in a doc comment
+ 212 | ERROR   | Tags must be grouped together in a doc comment
+ 215 | ERROR   | Tags must be grouped together in a doc comment
+ 220 | ERROR   | Tags must be grouped together in a doc comment
+ 331 | WARNING | Line exceeds 80 characters; contains 102 characters
+ 332 | WARNING | Line exceeds 80 characters; contains 103 characters
+ 368 | ERROR   | Doc comment short description must be on a single
+     |         | line, further text should be a separate paragraph
+ 373 | ERROR   | Doc comment short description must be on a single
+     |         | line, further text should be a separate paragraph
+ 378 | ERROR   | Doc comment short description must be on a single
+     |         | line, further text should be a separate paragraph
+ 383 | ERROR   | Doc comment short description must be on a single
+     |         | line, further text should be a separate paragraph
+ 388 | ERROR   | Doc comment short description must be on a single
+     |         | line, further text should be a separate paragraph
+ 393 | ERROR   | Doc comment short description must be on a single
+     |         | line, further text should be a separate paragraph
+ 436 | WARNING | Line exceeds 80 characters; contains 88 characters
+ 560 | ERROR   | Doc comment short description must be on a single
+     |         | line, further text should be a separate paragraph
+ 581 | WARNING | Line exceeds 80 characters; contains 120 characters
+ 630 | WARNING | Line exceeds 80 characters; contains 101 characters
+ 631 | WARNING | Line exceeds 80 characters; contains 128 characters
+ 632 | WARNING | Line exceeds 80 characters; contains 221 characters
+ 645 | WARNING | Line exceeds 80 characters; contains 85 characters
+ 671 | ERROR   | Tags must be grouped together in a doc comment
+ 678 | ERROR   | Tags must be grouped together in a doc comment
+----------------------------------------------------------------------
+
+Time: 137ms; Memory: 9.25Mb
+

@@ -1,67 +1,90 @@
 <?php
 
-/* core/themes/classy/templates/navigation/menu-local-task.html.twig */
-class __TwigTemplate_56608267062ca6148ad067af2deca1272f617b93773b5053316dceeb64e8a919 extends Twig_Template
-{
-    public function __construct(Twig_Environment $env)
-    {
-        parent::__construct($env);
+/**
+ * @file Core/themes/classy/templates/navigation/menu-local-task.html.twig .*/
 
-        $this->parent = false;
+/**
+ *
+ */
+class __TwigTemplate_56608267062ca6148ad067af2deca1272f617b93773b5053316dceeb64e8a919 extends Twig_Template {
 
-        $this->blocks = array(
+  /**
+   *
+   */
+  public function __construct(Twig_Environment $env) {
+
+    parent::__construct($env);
+
+    $this->parent = FALSE;
+
+    $this->blocks = array();
+  }
+
+  /**
+   *
+   */
+  protected function doDisplay(array $context, array $blocks = array()) {
+
+    $tags = array();
+    $filters = array();
+    $functions = array();
+
+    try {
+      $this->env->getExtension('sandbox')->checkSecurity(
+            array(),
+            array(),
+            array()
         );
     }
+    catch (Twig_Sandbox_SecurityError $e) {
+      $e->setTemplateFile($this->getTemplateName());
 
-    protected function doDisplay(array $context, array $blocks = array())
-    {
-        $tags = array();
-        $filters = array();
-        $functions = array();
+      if ($e instanceof Twig_Sandbox_SecurityNotAllowedTagError && isset($tags[$e->getTagName()])) {
+        $e->setTemplateLine($tags[$e->getTagName()]);
+      }
+      elseif ($e instanceof Twig_Sandbox_SecurityNotAllowedFilterError && isset($filters[$e->getFilterName()])) {
+        $e->setTemplateLine($filters[$e->getFilterName()]);
+      }
+      elseif ($e instanceof Twig_Sandbox_SecurityNotAllowedFunctionError && isset($functions[$e->getFunctionName()])) {
+        $e->setTemplateLine($functions[$e->getFunctionName()]);
+      }
 
-        try {
-            $this->env->getExtension('sandbox')->checkSecurity(
-                array(),
-                array(),
-                array()
-            );
-        } catch (Twig_Sandbox_SecurityError $e) {
-            $e->setTemplateFile($this->getTemplateName());
+      throw $e;
+    }
 
-            if ($e instanceof Twig_Sandbox_SecurityNotAllowedTagError && isset($tags[$e->getTagName()])) {
-                $e->setTemplateLine($tags[$e->getTagName()]);
-            } elseif ($e instanceof Twig_Sandbox_SecurityNotAllowedFilterError && isset($filters[$e->getFilterName()])) {
-                $e->setTemplateLine($filters[$e->getFilterName()]);
-            } elseif ($e instanceof Twig_Sandbox_SecurityNotAllowedFunctionError && isset($functions[$e->getFunctionName()])) {
-                $e->setTemplateLine($functions[$e->getFunctionName()]);
-            }
-
-            throw $e;
-        }
-
-        // line 17
-        echo "<li";
-        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["attributes"]) ? $context["attributes"] : null), "addClass", array(0 => (((isset($context["is_active"]) ? $context["is_active"] : null)) ? ("is-active") : (""))), "method"), "html", null, true));
-        echo ">";
-        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["link"]) ? $context["link"] : null), "html", null, true));
-        echo "</li>
+    // Line 17.
+    echo "<li";
+    echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["attributes"]) ? $context["attributes"] : NULL), "addClass", array(0 => (((isset($context["is_active"]) ? $context["is_active"] : NULL)) ? ("is-active") : (""))), "method"), "html", NULL, TRUE));
+    echo ">";
+    echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["link"]) ? $context["link"] : NULL), "html", NULL, TRUE));
+    echo "</li>
 ";
-    }
+  }
 
-    public function getTemplateName()
-    {
-        return "core/themes/classy/templates/navigation/menu-local-task.html.twig";
-    }
+  /**
+   *
+   */
+  public function getTemplateName() {
 
-    public function isTraitable()
-    {
-        return false;
-    }
+    return "core/themes/classy/templates/navigation/menu-local-task.html.twig";
+  }
 
-    public function getDebugInfo()
-    {
-        return array (  43 => 17,);
-    }
+  /**
+   *
+   */
+  public function isTraitable() {
+
+    return FALSE;
+  }
+
+  /**
+   *
+   */
+  public function getDebugInfo() {
+
+    return array(43 => 17);
+  }
+
 }
 /* {#*/
 /* /***/

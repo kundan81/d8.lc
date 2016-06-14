@@ -1,78 +1,101 @@
 <?php
 
-/* core/themes/classy/templates/content/page-title.html.twig */
-class __TwigTemplate_990613b2127d762948480b3ddae97df2952e29106db8887e0e4212532f9bcba9 extends Twig_Template
-{
-    public function __construct(Twig_Environment $env)
-    {
-        parent::__construct($env);
+/**
+ * @file Core/themes/classy/templates/content/page-title.html.twig .*/
 
-        $this->parent = false;
+/**
+ *
+ */
+class __TwigTemplate_990613b2127d762948480b3ddae97df2952e29106db8887e0e4212532f9bcba9 extends Twig_Template {
 
-        $this->blocks = array(
+  /**
+   *
+   */
+  public function __construct(Twig_Environment $env) {
+
+    parent::__construct($env);
+
+    $this->parent = FALSE;
+
+    $this->blocks = array();
+  }
+
+  /**
+   *
+   */
+  protected function doDisplay(array $context, array $blocks = array()) {
+
+    $tags = array("if" => 16);
+    $filters = array();
+    $functions = array();
+
+    try {
+      $this->env->getExtension('sandbox')->checkSecurity(
+            array('if'),
+            array(),
+            array()
         );
     }
+    catch (Twig_Sandbox_SecurityError $e) {
+      $e->setTemplateFile($this->getTemplateName());
 
-    protected function doDisplay(array $context, array $blocks = array())
-    {
-        $tags = array("if" => 16);
-        $filters = array();
-        $functions = array();
+      if ($e instanceof Twig_Sandbox_SecurityNotAllowedTagError && isset($tags[$e->getTagName()])) {
+        $e->setTemplateLine($tags[$e->getTagName()]);
+      }
+      elseif ($e instanceof Twig_Sandbox_SecurityNotAllowedFilterError && isset($filters[$e->getFilterName()])) {
+        $e->setTemplateLine($filters[$e->getFilterName()]);
+      }
+      elseif ($e instanceof Twig_Sandbox_SecurityNotAllowedFunctionError && isset($functions[$e->getFunctionName()])) {
+        $e->setTemplateLine($functions[$e->getFunctionName()]);
+      }
 
-        try {
-            $this->env->getExtension('sandbox')->checkSecurity(
-                array('if'),
-                array(),
-                array()
-            );
-        } catch (Twig_Sandbox_SecurityError $e) {
-            $e->setTemplateFile($this->getTemplateName());
+      throw $e;
+    }
 
-            if ($e instanceof Twig_Sandbox_SecurityNotAllowedTagError && isset($tags[$e->getTagName()])) {
-                $e->setTemplateLine($tags[$e->getTagName()]);
-            } elseif ($e instanceof Twig_Sandbox_SecurityNotAllowedFilterError && isset($filters[$e->getFilterName()])) {
-                $e->setTemplateLine($filters[$e->getFilterName()]);
-            } elseif ($e instanceof Twig_Sandbox_SecurityNotAllowedFunctionError && isset($functions[$e->getFunctionName()])) {
-                $e->setTemplateLine($functions[$e->getFunctionName()]);
-            }
-
-            throw $e;
-        }
-
-        // line 15
-        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["title_prefix"]) ? $context["title_prefix"] : null), "html", null, true));
-        echo "
+    // Line 15.
+    echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["title_prefix"]) ? $context["title_prefix"] : NULL), "html", NULL, TRUE));
+    echo "
 ";
-        // line 16
-        if ((isset($context["title"]) ? $context["title"] : null)) {
-            // line 17
-            echo "  <h1";
-            echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["title_attributes"]) ? $context["title_attributes"] : null), "addClass", array(0 => "page-title"), "method"), "html", null, true));
-            echo ">";
-            echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["title"]) ? $context["title"] : null), "html", null, true));
-            echo "</h1>
-";
-        }
-        // line 19
-        echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["title_suffix"]) ? $context["title_suffix"] : null), "html", null, true));
-        echo "
+    // Line 16.
+    if ((isset($context["title"]) ? $context["title"] : NULL)) {
+      // Line 17.
+      echo "  <h1";
+      echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, $this->getAttribute((isset($context["title_attributes"]) ? $context["title_attributes"] : NULL), "addClass", array(0 => "page-title"), "method"), "html", NULL, TRUE));
+      echo ">";
+      echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["title"]) ? $context["title"] : NULL), "html", NULL, TRUE));
+      echo "</h1>
 ";
     }
+    // Line 19.
+    echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["title_suffix"]) ? $context["title_suffix"] : NULL), "html", NULL, TRUE));
+    echo "
+";
+  }
 
-    public function getTemplateName()
-    {
-        return "core/themes/classy/templates/content/page-title.html.twig";
-    }
+  /**
+   *
+   */
+  public function getTemplateName() {
 
-    public function isTraitable()
-    {
-        return false;
-    }
+    return "core/themes/classy/templates/content/page-title.html.twig";
+  }
 
-    public function getDebugInfo()
-    {
-        return array (  57 => 19,  49 => 17,  47 => 16,  43 => 15,);
-    }
+  /**
+   *
+   */
+  public function isTraitable() {
+
+    return FALSE;
+  }
+
+  /**
+   *
+   */
+  public function getDebugInfo() {
+
+    return array(57 => 19, 49 => 17, 47 => 16, 43 => 15);
+  }
+
 }
 /* {#*/
 /* /***/

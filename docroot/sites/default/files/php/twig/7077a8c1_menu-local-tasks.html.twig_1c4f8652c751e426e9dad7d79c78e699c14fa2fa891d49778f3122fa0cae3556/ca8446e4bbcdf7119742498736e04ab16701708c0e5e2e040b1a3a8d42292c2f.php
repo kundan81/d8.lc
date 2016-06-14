@@ -1,92 +1,115 @@
 <?php
 
-/* core/themes/seven/templates/menu-local-tasks.html.twig */
-class __TwigTemplate_39a0e11bf3cc5364396736d16e81a7af3a9afa97b80c002c28c0eb1ed26e3734 extends Twig_Template
-{
-    public function __construct(Twig_Environment $env)
-    {
-        parent::__construct($env);
+/**
+ * @file Core/themes/seven/templates/menu-local-tasks.html.twig .*/
 
-        $this->parent = false;
+/**
+ *
+ */
+class __TwigTemplate_39a0e11bf3cc5364396736d16e81a7af3a9afa97b80c002c28c0eb1ed26e3734 extends Twig_Template {
 
-        $this->blocks = array(
+  /**
+   *
+   */
+  public function __construct(Twig_Environment $env) {
+
+    parent::__construct($env);
+
+    $this->parent = FALSE;
+
+    $this->blocks = array();
+  }
+
+  /**
+   *
+   */
+  protected function doDisplay(array $context, array $blocks = array()) {
+
+    $tags = array("if" => 16);
+    $filters = array("t" => 17);
+    $functions = array();
+
+    try {
+      $this->env->getExtension('sandbox')->checkSecurity(
+            array('if'),
+            array('t'),
+            array()
         );
     }
+    catch (Twig_Sandbox_SecurityError $e) {
+      $e->setTemplateFile($this->getTemplateName());
 
-    protected function doDisplay(array $context, array $blocks = array())
-    {
-        $tags = array("if" => 16);
-        $filters = array("t" => 17);
-        $functions = array();
+      if ($e instanceof Twig_Sandbox_SecurityNotAllowedTagError && isset($tags[$e->getTagName()])) {
+        $e->setTemplateLine($tags[$e->getTagName()]);
+      }
+      elseif ($e instanceof Twig_Sandbox_SecurityNotAllowedFilterError && isset($filters[$e->getFilterName()])) {
+        $e->setTemplateLine($filters[$e->getFilterName()]);
+      }
+      elseif ($e instanceof Twig_Sandbox_SecurityNotAllowedFunctionError && isset($functions[$e->getFunctionName()])) {
+        $e->setTemplateLine($functions[$e->getFunctionName()]);
+      }
 
-        try {
-            $this->env->getExtension('sandbox')->checkSecurity(
-                array('if'),
-                array('t'),
-                array()
-            );
-        } catch (Twig_Sandbox_SecurityError $e) {
-            $e->setTemplateFile($this->getTemplateName());
+      throw $e;
+    }
 
-            if ($e instanceof Twig_Sandbox_SecurityNotAllowedTagError && isset($tags[$e->getTagName()])) {
-                $e->setTemplateLine($tags[$e->getTagName()]);
-            } elseif ($e instanceof Twig_Sandbox_SecurityNotAllowedFilterError && isset($filters[$e->getFilterName()])) {
-                $e->setTemplateLine($filters[$e->getFilterName()]);
-            } elseif ($e instanceof Twig_Sandbox_SecurityNotAllowedFunctionError && isset($functions[$e->getFunctionName()])) {
-                $e->setTemplateLine($functions[$e->getFunctionName()]);
-            }
-
-            throw $e;
-        }
-
-        // line 16
-        if ((isset($context["primary"]) ? $context["primary"] : null)) {
-            // line 17
-            echo "  <h2 id=\"primary-tabs-title\" class=\"visually-hidden\">";
-            echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->renderVar(t("Primary tabs")));
-            echo "</h2>
+    // Line 16.
+    if ((isset($context["primary"]) ? $context["primary"] : NULL)) {
+      // Line 17.
+      echo "  <h2 id=\"primary-tabs-title\" class=\"visually-hidden\">";
+      echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->renderVar(t("Primary tabs")));
+      echo "</h2>
   <nav role=\"navigation\" class=\"is-horizontal is-collapsible\" aria-labelledby=\"primary-tabs-title\" data-drupal-nav-tabs>
     <button class=\"reset-appearance tabs__tab tabs__trigger\" aria-label=\"";
-            // line 19
-            echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->renderVar(t("Primary tabs display toggle")));
-            echo "\" data-drupal-nav-tabs-trigger>&bull;&bull;&bull;</button>
+      // Line 19.
+      echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->renderVar(t("Primary tabs display toggle")));
+      echo "\" data-drupal-nav-tabs-trigger>&bull;&bull;&bull;</button>
     <ul class=\"tabs primary clearfix\" data-drupal-nav-tabs-target>";
-            // line 20
-            echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["primary"]) ? $context["primary"] : null), "html", null, true));
-            echo "</ul>
+      // Line 20.
+      echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["primary"]) ? $context["primary"] : NULL), "html", NULL, TRUE));
+      echo "</ul>
   </nav>
 ";
-        }
-        // line 23
-        if ((isset($context["secondary"]) ? $context["secondary"] : null)) {
-            // line 24
-            echo "  <h2 id=\"secondary-tabs-title\" class=\"visually-hidden\">";
-            echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->renderVar(t("Secondary tabs")));
-            echo "</h2>
+    }
+    // Line 23.
+    if ((isset($context["secondary"]) ? $context["secondary"] : NULL)) {
+      // Line 24.
+      echo "  <h2 id=\"secondary-tabs-title\" class=\"visually-hidden\">";
+      echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->renderVar(t("Secondary tabs")));
+      echo "</h2>
   <nav role=\"navigation\" class=\"is-horizontal\" aria-labelledby=\"secondary-tabs-title\" data-drupal-nav-tabs>
     <ul class=\"tabs secondary clearfix\">";
-            // line 26
-            echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["secondary"]) ? $context["secondary"] : null), "html", null, true));
-            echo "</ul>
+      // Line 26.
+      echo $this->env->getExtension('sandbox')->ensureToStringAllowed($this->env->getExtension('drupal_core')->escapeFilter($this->env, (isset($context["secondary"]) ? $context["secondary"] : NULL), "html", NULL, TRUE));
+      echo "</ul>
   </nav>
 ";
-        }
     }
+  }
 
-    public function getTemplateName()
-    {
-        return "core/themes/seven/templates/menu-local-tasks.html.twig";
-    }
+  /**
+   *
+   */
+  public function getTemplateName() {
 
-    public function isTraitable()
-    {
-        return false;
-    }
+    return "core/themes/seven/templates/menu-local-tasks.html.twig";
+  }
 
-    public function getDebugInfo()
-    {
-        return array (  69 => 26,  63 => 24,  61 => 23,  55 => 20,  51 => 19,  45 => 17,  43 => 16,);
-    }
+  /**
+   *
+   */
+  public function isTraitable() {
+
+    return FALSE;
+  }
+
+  /**
+   *
+   */
+  public function getDebugInfo() {
+
+    return array(69 => 26, 63 => 24, 61 => 23, 55 => 20, 51 => 19, 45 => 17, 43 => 16);
+  }
+
 }
 /* {#*/
 /* /***/
