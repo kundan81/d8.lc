@@ -14,11 +14,10 @@ class HelloController extends ControllerBase {
    * Conntent().
    */
   public function content() {
-    // print_r("expression"); die();
     return array(
       '#type' => 'markup',
       '#markup' => t('Hello, World!'),
-    );
+    )
   }
 
 }
