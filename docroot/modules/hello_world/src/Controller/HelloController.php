@@ -17,7 +17,7 @@ class HelloController extends ControllerBase {
     return array(
       '#type' => 'markup',
       '#markup' => t('Hello, World!'),
-    )
+    );
   }
 
 }
